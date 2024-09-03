@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Application Form</title>
+    <link rel="stylesheet" href="src/form_style.css">
+    <link rel="icon" href="img/Logo.png">
+</head>
+
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html">
+                <img src="/img/Logo.png" alt="Logo">
+            </a>
+            <a href="index.html">
+                <h3 class="name">Saradha Skill Acadamy</h3>
+            </a>
+
+            <div class="nav-links" id="navLinks">
+                <img class="close" src="/img/close.png" onclick="hidemenu()">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="form.html">Course</a></li>
+                    <li><a href="https://sharadhaskillacademy.org/contacts/">Contact</a></li>
+                </ul>
+            </div>
+            <img class="menu" src="/img/ic_menu.png" onclick="showmenu()">
+        </nav>
+
+        <section class="course">
+            <h1>
+                Courses We Offer
+            </h1>
+            <p>
+                Unlock your potential with Saradha Skill Academy's cutting-edge IT courses, designed to elevate your
+                career
+                and provide hands-on expertise. Learn from industry leaders and gain the skills you need to excel in
+                today's
+                tech-driven world
+            </p>
+
+            <div class="row">
+                <div class="course-col">
+                    <h3>Data Science</h3>
+
+                    <p>
+                        Unlock the power of data with our Data Science course. Learn to analyze, visualize, and derive
+                        actionable insights from data using advanced techniques and tools.</p>
+                </div>
+                <div class="course-col">
+                    <h3>Full Stack Develoment</h3>
+
+                    <p>
+                        Master both front-end and back-end development with our Full Stack course. Learn to build
+                        dynamic
+                        web applications from start to finish using the latest technologies.
+                    </p>
+                </div>
+                <div class="course-col">
+                    <h3>AI/ML</h3>
+                    <p>
+                        Dive into artificial intelligence and machine learning with our comprehensive course. Develop
+                        and
+                        deploy
+                        models to solve real-world problems and drive innovation.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+    </section>
+
+    <!-- Form -->
+    <section>
+        <div class="form">
+
+        </div>
+    </section>
+
+    <section class="form-section">
+        <div class="form-image">
+            <img src="img/reg.webp" alt="Decorative Image">
+        </div>
+        <div class="form-content">
+            <form action="" id="form">
+                <h1>Registration Form</h1>
+
+                <div class="input-grp">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" class="name">
+                    <div class="error" id="name-error"></div>
+                </div>
+                <div class="input-grp">
+                    <label for="email">E-mail</label>
+                    <input type="text" id="email" class="email">
+                    <div class="error" id="email-error"></div>
+                </div>
+
+                <div class="input-grp">
+                    <label for="mobile">Mobile</label>
+                    <input type="text" id="mobile" class="mobile">
+                    <div class="error" id="mobile-error"></div>
+                </div>
+
+                <div class="dropdown_input">
+                    <label for="course">Select a Course</label>
+                    <select name="course" id="course">
+                        <option value="">--Select a Course--</option>
+                        <option value="Data Science">Data Science</option>
+                        <option value="Full Stack Development">Full Stack Development</option>
+                        <option value="Artificial Intelligence & Machine Learning">Artificial Intelligence & Machine Learning</option>
+                    </select>
+                    <div class="error" id="course-error"></div>
+                </div>
+                <button type="submit">Register</button>
+            </form>
+
+        </div>
+
+    </section>
+
+
+    <!-- footer -->
+    <section class="Footer">
+        <div class="icons">
+            <a href="https://www.facebook.com/NSDCIndiaOfficial"><img src="img/facebook.png" alt=""></a>
+            <a href="https://www.instagram.com/priyajaipravin_k/"></a><img src="img/instagram.png" alt=""></a>
+            <a href="https://x.com/nsdcindia"></a><img src="img/twitter.png" alt=""></a>
+            <a href="https://www.youtube.com/user/NSDCIndiaOfficial"></a><img src="img/youtube.png" alt=""></a>
+        </div>
+        <p>Made By Priyajai Pravin 😊</p>
+    </section>
+
+    <script src="/src/form_valid.js"></script>
+    <script src="/src/script.js"></script>
+    
+
+</body>
+
+</html>
